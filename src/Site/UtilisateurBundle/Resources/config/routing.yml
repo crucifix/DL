@@ -1,0 +1,7 @@
+utilisateur_inscription:
+    pattern:  /inscription
+    defaults: { _controller: SiteUtilisateurBundle:Utilisateur:inscription }
+
+utilisateur_connexion:
+    pattern:  /connexion
+    defaults: { _controller: SiteUtilisateurBundle:Utilisateur:connexion }
